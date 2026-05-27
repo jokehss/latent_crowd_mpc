@@ -1,4 +1,3 @@
-cat > CLAUDE.md <<'EOF'
 # CLAUDE.md
 
 ## Role of Claude Code
@@ -12,9 +11,9 @@ Default behavior: REVIEW ONLY. Do not modify files unless explicitly asked.
 1. Correctness
 2. Reproducibility
 3. Fair baseline comparison
-4. Experiment validity
-5. Clean architecture
-6. Tests and logging
+4. Clean architecture
+5. Tests and logging
+6. Research validity
 
 ## Must Flag
 
@@ -23,9 +22,8 @@ Default behavior: REVIEW ONLY. Do not modify files unless explicitly asked.
 - Silent metric changes
 - Baseline changes without justification
 - Hard-coded local paths
-- Missing seeds
-- Missing experiment config
-- Code that may silently fail in long training runs
+- Missing tests
+- Committed checkpoints, logs, datasets, or API keys
 
 ## Output Format
 
@@ -39,4 +37,3 @@ Research Risks:
 
 Required Fixes:
 - ...
-EOF
