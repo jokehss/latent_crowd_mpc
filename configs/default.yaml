@@ -1,0 +1,4 @@
+# Minimal default configuration placeholder.
+project:
+  name: latent-crowd-mpc
+  seed: 0
